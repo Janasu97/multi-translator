@@ -20,34 +20,16 @@ bottom of the screen. After a moment, the translated text will appear in four te
 
 1. Clone the repository:
 ```
-git clone https://github.com/Janasu97/znanylekarz-scraper.git
+git clone https://github.com/Janasu97/multi-translator.git
 ```
 2. Navigate to the project directory:
 3. Install the required Python packages:
 
 ```
-pip3 install requests
-pip3 install BeautifulSoup4
-pip3 install matplotlib
+pip3 install tkinter
+pip3 install googletrans
 ```
 
-## Usage
-
-1. Run the main scraper script:
-```
-python main.py
-```
-
-Follow the on-screen prompts to select the specialization type 
-index and specify the number of pages to scrape.
- 
-2. To check and manipulate the stored data, use the dboperations script:
-
-```
-python dboperations.py
-```
-
-Modify the script according to your needs for database operations.
 
 ## Contributing
 
